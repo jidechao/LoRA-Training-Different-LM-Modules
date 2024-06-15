@@ -198,9 +198,9 @@ Sat Jun 15 07:53:15 2024
 ### Scenario 1 
 Modules trained:
 
-modules_to_save=["lm_head"],
+*modules_to_save=["lm_head"],*
 
-target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj"]
+*target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj"]*
 
 
 The results of the training are as follows:
@@ -209,9 +209,9 @@ The results of the training are as follows:
 ### Scenario 2 
 Modules trained：
 
-modules_to_save=["embed_tokens"],
+*modules_to_save=["embed_tokens"],*
 
-target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj"]
+*target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj"]*
 
 
 The results of the training are as follows:
@@ -221,9 +221,9 @@ The results of the training are as follows:
 ### Scenario 3 
 Modules trained：
 
-modules_to_save=["lm_head","embed_tokens"],
+*modules_to_save=["lm_head","embed_tokens"],
 
-target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj"]
+*target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj"]*
 
 
 The results of the training are as follows:
@@ -234,9 +234,9 @@ The results of the training are as follows:
 ### Scenario 4 
 Modules trained：
 
-modules_to_save=["lm_head","embed_tokens"],
+*modules_to_save=["lm_head","embed_tokens"],*
 
-target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj","fc2","fc1"]
+*target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj","fc2","fc1"]*
 
 
 The results of the training are as follows:
@@ -245,16 +245,16 @@ The results of the training are as follows:
 
 ### Scenario 5
 Modules trained：
-*
-target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj","fc2","fc1"]
-*
+
+*target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj","fc2","fc1"]*
+
 The results of the training are as follows:
 
 
 ### Scenario 6
 Modules trained：
 
-target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj"]
+*target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj"]*
 
 The results of the training are as follows:
 
