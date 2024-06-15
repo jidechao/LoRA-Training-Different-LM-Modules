@@ -194,6 +194,12 @@ Sat Jun 15 07:53:15 2024
 +---------------------------------------------------------------------------------------+
 ```
 ## Training Results
+Scenario 3 has the best training result.
+Modules trained：
+
+*modules_to_save=["lm_head","embed_tokens"],*
+
+*target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj"]*
 
 ### Scenario 1 
 Modules trained:
