@@ -1,6 +1,6 @@
 # LoRA-Training-Different-LM-Modules
 
-In LoRA, there are two parameter target_modules and modules_to_save, with which we can specify which modules' parameters should be fully fine-tuned.
+In LoRA/QLoRA, there are two parameter target_modules and modules_to_save, with which we can specify which modules' parameters should be fully fine-tuned.
 
 ```
 target_modules:
