@@ -245,9 +245,9 @@ The results of the training are as follows:
 
 ### Scenario 5
 Modules trained：
-
+*
 target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj","fc2","fc1"]
-
+*
 The results of the training are as follows:
 
 
