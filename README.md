@@ -206,6 +206,8 @@ Modules trained:
 The results of the training are as follows:
 
 
+TrainOutput(global_step=154, training_loss=1.020355326788766, metrics={'train_runtime': 1991.3376, 'train_samples_per_second': 4.944, 'train_steps_per_second': 0.077, 'total_flos': 4.2289832773287936e+17, 'train_loss': 1.020355326788766, 'epoch': 1.0})
+
 ### Scenario 2 
 Modules trained：
 
@@ -216,6 +218,12 @@ Modules trained：
 
 The results of the training are as follows:
 
+
+
+
+
+
+TrainOutput(global_step=154, training_loss=1.0223938551816074, metrics={'train_runtime': 1988.06, 'train_samples_per_second': 4.953, 'train_steps_per_second': 0.077, 'total_flos': 4.179327623626752e+17, 'train_loss': 1.0223938551816074, 'epoch': 1.0})
 
 
 ### Scenario 3 
@@ -229,6 +237,7 @@ Modules trained：
 The results of the training are as follows:
 
 
+TrainOutput(global_step=154, training_loss=1.018851394777174, metrics={'train_runtime': 1995.55, 'train_samples_per_second': 4.934, 'train_steps_per_second': 0.077, 'total_flos': 4.2289832773287936e+17, 'train_loss': 1.018851394777174, 'epoch': 1.0})
 
 
 ### Scenario 4 
