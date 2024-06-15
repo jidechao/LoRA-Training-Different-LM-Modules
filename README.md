@@ -220,6 +220,7 @@ The results of the training are as follows:
 
 ### Scenario 3 
 Modules trained：
+
 modules_to_save=["lm_head","embed_tokens"],
 
 target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj"]
@@ -246,6 +247,14 @@ The results of the training are as follows:
 Modules trained：
 
 target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj","fc2","fc1"]
+
+The results of the training are as follows:
+
+
+### Scenario 6
+Modules trained：
+
+target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj"]
 
 The results of the training are as follows:
 
