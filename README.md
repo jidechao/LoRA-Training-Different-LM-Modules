@@ -2,16 +2,18 @@
 
 In LoRA, besides the parameter target_modules, there is another parameter called modules_to_save. Through modules_to_save, we can specify which modules' parameters should be fully fine-tuned.
 
+```
 target_modules:
 
 Purpose: Specify which modules to apply the LoRA technique for low-rank adaptation.
 Behavior: Apply LoRA layers to these modules and update the parameters of these LoRA layers during the fine-tuning process.
+```
+```
 modules_to_save:
-
 Purpose: Specify which modules' weights need to be saved during the fine-tuning process.
 Behavior: The weights of these modules will be saved throughout the fine-tuning process.
 Next, we demonstrate full fine-tuning of Embeddings and the Language Modeling Head while fine-tuning the attention and MLP modules.
-
+```
 For example:
 ```
 peft_config = LoraConfig(
