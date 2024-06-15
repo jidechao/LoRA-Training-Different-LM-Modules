@@ -13,10 +13,10 @@ modules_to_save:
 Purpose: Specify which modules' weights need to be saved during the fine-tuning process.
 Behavior: The weights of these modules will be saved throughout the fine-tuning process.
 Next, we demonstrate full fine-tuning of Embeddings and the Language Modeling Head while fine-tuning the attention and MLP modules.
-
-### Note
-It is important to note that when we want to add special tokens to the vocabulary, fully fine-tuning the token embeddings is crucial. If no special tokens are added, or if there is no need to fine-tune the existing tokens, then it might not be necessary to retrain the token embeddings. Generally, such operations are only performed when there is a significant domain knowledge transfer, such as adapting to languages other than English, or fine-tuning for rare text styles/types found on the internet.
 ```
+#### Note
+It is important to note that when we want to add special tokens to the vocabulary, fully fine-tuning the token embeddings is crucial. If no special tokens are added, or if there is no need to fine-tune the existing tokens, then it might not be necessary to retrain the token embeddings. Generally, such operations are only performed when there is a significant domain knowledge transfer, such as adapting to languages other than English, or fine-tuning for rare text styles/types found on the internet.
+
 For example:
 ```
 peft_config = LoraConfig(
