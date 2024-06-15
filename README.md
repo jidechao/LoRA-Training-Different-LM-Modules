@@ -198,8 +198,7 @@ Sat Jun 15 07:53:15 2024
 +---------------------------------------------------------------------------------------+
 ```
 ## Training Results
-Scenario 3 got the best training result.
-Modules trained：
+Scenario 3 got the best training result, with the following modules trained：
 
 *modules_to_save=["lm_head","embed_tokens"],*
 
