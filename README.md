@@ -30,6 +30,8 @@ Above code means full fine-tuning of the Embedding layers and the Language Model
 
 Besides that, we could also LoRA training fc1 and fc2.
 
+## LM-Modules Relationship
+
 Let's take a look at the schematic diagram of the general relationships among these components.
 
 ```
