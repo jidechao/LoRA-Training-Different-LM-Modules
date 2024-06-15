@@ -251,11 +251,14 @@ Modules trained：
 The results of the training are as follows:
 
 
+TrainOutput(global_step=154, training_loss=1.0191746284435321, metrics={'train_runtime': 1992.0904, 'train_samples_per_second': 4.943, 'train_steps_per_second': 0.077, 'total_flos': 4.2289832773287936e+17, 'train_loss': 1.0191746284435321, 'epoch': 1.0})
+
+
 
 ### Scenario 5
 Modules trained：
 
-*target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj","fc2","fc1"]*
+*target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj"]*
 
 The results of the training are as follows:
 
@@ -263,7 +266,7 @@ The results of the training are as follows:
 ### Scenario 6
 Modules trained：
 
-*target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj"]*
+*target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj","fc2","fc1"]*
 
 The results of the training are as follows:
 
