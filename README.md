@@ -213,9 +213,7 @@ Modules trained:
 
 
 The results of the training are as follows:
-
-
-TrainOutput(global_step=154, training_loss=1.020355326788766, metrics={'train_runtime': 1991.3376, 'train_samples_per_second': 4.944, 'train_steps_per_second': 0.077, 'total_flos': 4.2289832773287936e+17, 'train_loss': 1.020355326788766, 'epoch': 1.0})
+![image](https://github.com/davidsajare/LoRA-Training-Different-LM-Modules/blob/main/images/1.png)
 
 ### Scenario 2 
 Modules trained：
@@ -226,13 +224,8 @@ Modules trained：
 
 
 The results of the training are as follows:
+![image](https://github.com/davidsajare/LoRA-Training-Different-LM-Modules/blob/main/images/2.png)
 
-
-
-
-
-
-TrainOutput(global_step=154, training_loss=1.0223938551816074, metrics={'train_runtime': 1988.06, 'train_samples_per_second': 4.953, 'train_steps_per_second': 0.077, 'total_flos': 4.179327623626752e+17, 'train_loss': 1.0223938551816074, 'epoch': 1.0})
 
 
 ### Scenario 3 
@@ -244,9 +237,7 @@ Modules trained：
 
 
 The results of the training are as follows:
-
-
-TrainOutput(global_step=154, training_loss=1.018851394777174, metrics={'train_runtime': 1995.55, 'train_samples_per_second': 4.934, 'train_steps_per_second': 0.077, 'total_flos': 4.2289832773287936e+17, 'train_loss': 1.018851394777174, 'epoch': 1.0})
+![image](https://github.com/davidsajare/LoRA-Training-Different-LM-Modules/blob/main/images/3.png)
 
 
 ### Scenario 4 
@@ -258,10 +249,7 @@ Modules trained：
 
 
 The results of the training are as follows:
-
-
-TrainOutput(global_step=154, training_loss=1.0191746284435321, metrics={'train_runtime': 1992.0904, 'train_samples_per_second': 4.943, 'train_steps_per_second': 0.077, 'total_flos': 4.2289832773287936e+17, 'train_loss': 1.0191746284435321, 'epoch': 1.0})
-
+![image](https://github.com/davidsajare/LoRA-Training-Different-LM-Modules/blob/main/images/4.png)
 
 
 ### Scenario 5
@@ -270,7 +258,7 @@ Modules trained：
 *target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj"]*
 
 The results of the training are as follows:
-
+![image](https://github.com/davidsajare/LoRA-Training-Different-LM-Modules/blob/main/images/5.png)
 
 ### Scenario 6
 Modules trained：
@@ -278,4 +266,4 @@ Modules trained：
 *target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj","fc2","fc1"]*
 
 The results of the training are as follows:
-
+![image](https://github.com/davidsajare/LoRA-Training-Different-LM-Modules/blob/main/images/6.png)
