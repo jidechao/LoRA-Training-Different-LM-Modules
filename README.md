@@ -166,6 +166,8 @@ Output Vectors
   Final Output
 ```
 
+## Training environment
+
 Next, I will conduct LoRA training tests for five scenarios, using the model microsoft/Phi-3-medium-128k-instruct. The training code can be found in the code directory. The training environment utilizes Azure NC H100 GPU VMs. 
 
 ```
