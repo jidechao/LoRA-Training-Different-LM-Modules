@@ -4,7 +4,7 @@
 
 
 
-···
+```
 Input Text  
 |  
 Tokenization  
@@ -134,4 +134,4 @@ Output Vectors
 ------------------------  
         |  
   Final Output
-···
+```
