@@ -185,8 +185,8 @@ The results of the training are as follows:
 
 ### Scenario 3 
 Modules trained.：
-modules_to_save=["lm_head","embed_tokens"],
-target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj"]
+modules_to_save=["lm_head","embed_tokens"],\n
+target_modules= ['k_proj', 'q_proj', 'v_proj', 'o_proj', "gate_proj", "down_proj", "up_proj"]\n
 
 The results of the training are as follows:
 
