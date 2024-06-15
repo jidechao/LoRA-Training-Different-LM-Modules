@@ -16,6 +16,7 @@ Next, we demonstrate full fine-tuning of Embeddings and the Language Modeling He
 ```
 #### Note
 It is important to note that when we want to add special tokens to the vocabulary, fully fine-tuning the token embeddings is crucial. If no special tokens are added, or if there is no need to fine-tune the existing tokens, then it might not be necessary to retrain the token embeddings. Generally, such operations are only performed when there is a significant domain knowledge transfer, such as adapting to languages other than English, or fine-tuning for rare text styles/types found on the internet.
+fc1 and fc2 can be trained together to achieve better performance. 
 
 For example:
 ```
