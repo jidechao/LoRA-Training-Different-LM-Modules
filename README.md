@@ -164,6 +164,30 @@ Output Vectors
 
 Next, I will conduct LoRA training tests for five scenarios, using the model microsoft/Phi-3-medium-128k-instruct. The training code can be found in the code directory. The training environment utilizes Azure NC H100 GPU VMs. 
 
+```
+(headtraining) root@h100vm:~# nvidia-smi
+Sat Jun 15 07:53:15 2024
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.54.03              Driver Version: 535.54.03    CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA H100 NVL                Off | 00000001:00:00.0 Off |                    0 |
+| N/A   79C    P0             372W / 400W |  95247MiB / 95830MiB |    100%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|    0   N/A  N/A      5240      C   ...iconda/envs/headtraining/bin/python    94482MiB |
++---------------------------------------------------------------------------------------+
+```
+
 ### Scenario 1 
 Modules trained:
 
